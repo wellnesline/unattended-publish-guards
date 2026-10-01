@@ -1,0 +1,19 @@
+# credentials and local state: never commit
+secrets/
+.env
+.env.*
+token.json
+client_secret*.json
+*.sqlite
+*.sqlite3
+__pycache__/
+.pytest_cache/
+.venv/
+
+# added
+*.py[cod]
+venv/
+out/
+output/
+work/
+!.env.example

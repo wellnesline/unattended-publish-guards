@@ -1,0 +1,5 @@
+# synthetic sample: dependencies
+pyyaml
+pytest
+faster-whisper   # only for publish_guard_speech_check.py
+# google-api-python-client, google-auth   # only for publish_guard_unpublish.py
